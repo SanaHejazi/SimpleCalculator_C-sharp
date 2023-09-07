@@ -1,0 +1,10 @@
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.Form1.resources
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\bin\Debug\Calculator.exe.config
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\bin\Debug\Calculator.exe
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\bin\Debug\Calculator.pdb
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.exe
+D:\Microsoft.Visual.Studio.2022\projects\C# Projects\WindowsForm\Training\MediumProject\Calculator\obj\Debug\Calculator.pdb
