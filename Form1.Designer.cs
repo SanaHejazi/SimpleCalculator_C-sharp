@@ -95,6 +95,7 @@
 			this.btnmine.TabIndex = 5;
 			this.btnmine.Text = "-";
 			this.btnmine.UseVisualStyleBackColor = true;
+			this.btnmine.Click += new System.EventHandler(this.btnmine_Click);
 			// 
 			// btnmulti
 			// 
@@ -105,6 +106,7 @@
 			this.btnmulti.TabIndex = 6;
 			this.btnmulti.Text = "X";
 			this.btnmulti.UseVisualStyleBackColor = true;
+			this.btnmulti.Click += new System.EventHandler(this.btnmulti_Click);
 			// 
 			// btndiv
 			// 
@@ -115,6 +117,7 @@
 			this.btndiv.TabIndex = 7;
 			this.btndiv.Text = "/";
 			this.btndiv.UseVisualStyleBackColor = true;
+			this.btndiv.Click += new System.EventHandler(this.btndiv_Click);
 			// 
 			// Form1
 			// 

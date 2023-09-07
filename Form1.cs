@@ -30,23 +30,54 @@ namespace Calculator
 		{
 			if(check())
 			{
-				calculate.plus((int)numberone.Value, (int)numbertow.Value);
+				int plus=calculate.plus((int)numberone.Value, (int)numbertow.Value);
+				MessageBox.Show("Your Answer Is :"+plus);
 			}
-			bool check()
+		
+		}
+
+		private void btnmine_Click(object sender, EventArgs e)
+		{
+			if (check())
 			{
-				bool isvalid = true;
-				if (numberone.Value == 0)
-				{
-					isvalid = false;
-					MessageBox.Show("Please Enter Number One");
-				}
-				if (numbertow.Value == 0)
-				{
-					isvalid = false;
-					MessageBox.Show("Please Enter Number Two");
-				}
-				return isvalid;
+				int mines = calculate.mine((int)numberone.Value, (int)numbertow.Value);
+				MessageBox.Show("Your Answer Is :" + mines);
 			}
+		
+		}
+
+		private void btnmulti_Click(object sender, EventArgs e)
+		{
+			if (check())
+			{
+				int multi = calculate.mult((int)numberone.Value, (int)numbertow.Value);
+				MessageBox.Show("Your Answer Is :" + multi);
+			}
+
+		}
+
+		private void btndiv_Click(object sender, EventArgs e)
+		{
+			if (check())
+			{
+				double div = calculate.div((int)numberone.Value, (int)numbertow.Value);
+				MessageBox.Show("Your Answer Is :" + div);
+			}
+		}
+		bool check()
+		{
+			bool isvalid = true;
+			if (numberone.Value == 0)
+			{
+				isvalid = false;
+				MessageBox.Show("Please Enter Number One");
+			}
+			if (numbertow.Value == 0)
+			{
+				isvalid = false;
+				MessageBox.Show("Please Enter Number Two");
+			}
+			return isvalid;
 		}
 	}
 }

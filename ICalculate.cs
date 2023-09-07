@@ -10,7 +10,7 @@ namespace Calculator
 	{
 		int plus(int numberone, int numbertow);
 		int mine(int numberone, int numbertow);
-		int div(int numberone, int numbertow);
+		double div(int numberone, int numbertow);
 		int mult(int numberone, int numbertow);
 	}
 }

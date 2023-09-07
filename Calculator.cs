@@ -8,7 +8,7 @@ namespace Calculator
 {
 	internal class Calculator : ICalculate
 	{
-		public int div(int numberone, int numbertow)
+		public double div(int numberone, int numbertow)
 		{
 			return numbertow/numberone;
 		}
